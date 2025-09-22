@@ -1,5 +1,5 @@
 #!/bin/bash
 echo "enter name"
-name=read 
+read name
 
 echo "$(name)"
