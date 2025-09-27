@@ -1,7 +1,7 @@
 #!/bin/bash
 
 userid=$(id -u)
-
+G="\e[32m"
 if [ $userid != 0 ]; then 
     echo "run with sudo access"
     exit 1
