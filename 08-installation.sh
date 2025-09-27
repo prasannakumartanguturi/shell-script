@@ -11,4 +11,5 @@ else
         dnf install nginx -y
     else
         echo "nginx already installedd"
+    fi
 fi
