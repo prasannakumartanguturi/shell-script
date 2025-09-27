@@ -8,7 +8,7 @@ if [ $userid != 0 ]; then
 fi
 validate(){
 
-    if [$1 != 0 ]; then 
+    if [ $1 != 0 ]; then 
         echo "installing $2 is fail"
     else
         echo "imstalling $2 is success"
