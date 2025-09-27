@@ -8,5 +8,5 @@ logfile="$logs_folder/$scriptname.log"
 
 
 mkdir -p $logs_folder # if folder is there then ignore, else create folder
-dnf install python3 -y &>>$logfile
-
+#dnf install python3 -y &>>$logfile
+dnf remove python3 -y &>>$logfile
