@@ -5,5 +5,5 @@ if [ $user_id -ne 0 ]; then
     echo "run the command with user access"
 else    
     echo "installing nginx"
-    dnf installn nginx -y
+    dnf install nginx -y
 fi
