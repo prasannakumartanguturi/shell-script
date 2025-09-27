@@ -6,6 +6,6 @@ N="\e[0m"
 
 
 userid=$(id -u)
-echo -e "$R userid:$userid$N"
-echo -e "$G userid:$userid$N"
-echo -e "$Y userid:$userid$N"
+echo -e "$R userid:$userid $N"
+echo -e "$G userid:$userid $N"
+echo -e "$Y userid:$userid $N"
